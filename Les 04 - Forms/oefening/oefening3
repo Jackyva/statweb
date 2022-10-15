@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action=" gebruiker_registreren.php" method="get">
+    <fieldset>
+        <legend>Geslacht</legend>
+        <div>
+            <label for="Man"> <input type="radio" id="Man" naam="Geslacht" value="Man"/></label>
+            <label for="Vrouw"> <input type="radio" id="Vrouw" naam="Geslacht" value="Vrouw"/></label>
+            <label for="Ander"> <input type="radio" id="Ander" naam="Geslacht" value="Ander"/></label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Kleur ogen</legend>
+        <div>
+            <label for="Bruin"> <input type="radio" id="Bruin" naam="Kleur" value="Man"/></label>
+            <label for="Groen"> <input type="radio" id="Vrouw" naam="Kleur" value="Groen"/></label>
+            <label for="Blauw"> <input type="radio" id="Ander" naam="Kleur" value="Blauw"/></label>
+            <label for="Grijs"> <input type="radio" id="Ander" naam="Kleur" value="Grijs"/></label>
+        </div>
+    </fieldset>
+
+
+
+
+            
+
+
+    
+</form>
+
+</body>
+
+</html>

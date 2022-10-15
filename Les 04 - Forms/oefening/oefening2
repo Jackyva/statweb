@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action=" registreren.php" method="get">
+    <div>
+    <label for ="Voornaam": -input type ="text" name="Voornaam" id = "Voornaam" placeholder="Stijn"  ></label>
+    </div>
+
+    <div>
+     <label for ="Familienaam": -input type ="Familienaam" name="Familienaam" id = "Familienaam" placeholder="Willekens" ></label>
+     </div>
+
+     <div>
+        <label for ="Gebruikersnaam": -input type ="Gebruikersnaam" name="Gebruikersnaam" id = "Gebruikersnaam" placeholder="mail@thomasmore.be"required ></label>
+        </div>
+
+        <div>
+            <label for ="Nickname": -input type ="Nickname" name="Nickname" id = "Nickname" required ></label>
+            </div>
+    
+            <div>
+                <label for ="Paswoord": -input type ="Paswoord" name="Paswoord" id = "Paswoord" required ></label>
+                </div>
+           
+                <div>
+                    <label for ="Herhaal Paswoord": -input type ="Herhaal Paswoord" name="Herhaal Paswoord" id = "Herhaal Paswoord" required ></label>
+                    </div>
+   
+
+    <div>
+        <input type="Registreren" value="Registreren">
+    </div>
+    
+
+</form>
+
+</body>
+
+</html>
