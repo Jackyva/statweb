@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    h1 - Stel uw vraag hier: /h1
-<form action=" verzend.php" method="post">
+   
+<form action=" registreren.php" method="post">
     <div>
     <label for ="Voornaam": -input type ="text" name="Voornaam" id = "Voornaam" required ></label>
     </div>
